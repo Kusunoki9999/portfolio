@@ -10,6 +10,27 @@ body {
     color: #24292e;
     letter-spacing: 0.05em;
 }
+
+header{
+    max-width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 4%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header ul{
+    display: flex;
+}
+
+header li{
+    margin-left: 30px;
+}
+
 a,a:visited {
     color: #24292e;
     text-decoration: none;
