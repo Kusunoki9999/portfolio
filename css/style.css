@@ -79,6 +79,24 @@ header{
     font-size: 18px;
 }
 
+.work-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+#works img{
+    width: 50%;
+}
+
+.work-description{
+    margin-left: 10px;
+    width: 50%;
+}
+
+.work-description p{
+    margin-top: 10px;
+}
+
 #about h3 {
     margin-right: 10px;
 }
