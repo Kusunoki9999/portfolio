@@ -134,6 +134,13 @@ header{
     margin-bottom: 10px;
 }
 
+#contact{
+    background-color: #EBDFE0;
+    text-align: center;
+}
+
+
+
 .skill-list{
     display: flex;
     justify-content: space-between;
