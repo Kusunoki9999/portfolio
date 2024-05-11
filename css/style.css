@@ -164,3 +164,55 @@ footer{
     padding: 10px 20px;
     text-align: center;  
 }
+
+
+@media screen and (max-width: 414px) {
+    h2{
+        margin-bottom: 30px;
+    }
+
+    header{
+        max-width: 100%;
+        flex-direction: column;
+        height: auto;
+        padding: 10px 4%;
+    }
+
+    #about {
+        text-align:  center;
+    }
+    #about h3 {
+        margin: 0;
+    }
+    #about-name {
+        flex-direction: column;
+        align-items: center;
+    }
+    #about-detail {
+        flex-direction: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #about-detail p {
+        text-align: left;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .skill-item {
+        width: 100%;
+    }
+
+    .work-item {
+        flex-direction: column;
+    }
+    
+    #works img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .work-description {
+        width: 100%;
+    }
+}
