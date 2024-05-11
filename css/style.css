@@ -79,23 +79,21 @@ header{
     font-size: 18px;
 }
 
-.work-item{
-    display: flex;
-    justify-content: space-between;
-}
-
 #works img{
     width: 50%;
 }
 
+.work-item{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .work-description{
-    margin-left: 10px;
+    margin: 10%;
     width: 50%;
 }
 
-.work-description p{
-    margin-top: 10px;
-}
 
 #about h3 {
     margin-right: 10px;
@@ -138,7 +136,6 @@ header{
     background-color: #EBDFE0;
     text-align: center;
 }
-
 
 
 .skill-list{
