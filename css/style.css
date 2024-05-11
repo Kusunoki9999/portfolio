@@ -124,6 +124,10 @@ header{
   justify-content: space-between;
 }
 
+#about h2{
+    margin-top: 40px;
+}
+
 #skills{
     background-color: #f5f5f5;
 }
