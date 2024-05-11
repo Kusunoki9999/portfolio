@@ -90,12 +90,9 @@ header{
 }
 
 .work-description{
-    margin-top: 10px;
-    margin-left: 10px;
+    margin: 10%;
     width: 50%;
-    align-items: right;
 }
-
 
 
 #about h3 {
